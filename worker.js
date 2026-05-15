@@ -8,7 +8,7 @@
 
 export default {
   async fetch(request, env) {
-    const siteName = env.SITE_NAME || "OTC音乐网";
+    const siteName = env.SITE_NAME || "LXC音乐网";
     const proxy    = env.PROXY    || "https://proxy.api.030101.xyz/";
 
     const html = getHTML(siteName, proxy);
